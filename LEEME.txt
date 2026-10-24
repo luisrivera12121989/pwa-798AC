@@ -1,0 +1,47 @@
+CAMIÓN 798 AC · APP INSTALABLE (PWA)
+====================================
+
+Esta carpeta es la app completa. Para poder instalarla en el celular tiene que estar
+publicada en una dirección segura (https). Abrir index.html directamente desde el
+teléfono sirve para leer, pero NO permite instalarla ni usarla sin conexión.
+
+PASO 1 · Publicar la carpeta (elige una opción)
+
+  A) Netlify (la más simple)
+     1. Entra a https://app.netlify.com/drop
+     2. Arrastra la carpeta "pwa-798AC" completa (descomprimida) a la página.
+     3. Netlify te da una dirección https://algo.netlify.app
+
+  B) GitHub Pages
+     1. Crea un repositorio nuevo y sube todos los archivos de esta carpeta
+        (index.html, sw.js, manifest.webmanifest y la carpeta icons).
+     2. En Settings > Pages, elige la rama principal y la carpeta raíz.
+     3. Tu dirección será https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/
+
+  C) Cloudflare Pages: "Create a project" > "Direct Upload" y sube la carpeta.
+
+PASO 2 · Instalar en el celular
+
+  Android (Chrome): abre la dirección. Toca el botón "📲 Instalar" de la app
+  (o el menú ⋮ > "Instalar aplicación"). Queda como un ícono más.
+
+  iPhone (Safari): abre la dirección, toca Compartir > "Agregar a pantalla de inicio".
+
+PASO 3 · Usar sin conexión
+  Abre la app una vez con internet y espera unos segundos: el manual completo
+  (unos 12 MB) se guarda en el teléfono. Después funciona sin señal.
+
+ACTUALIZAR
+  Si cambias index.html, sube los archivos de nuevo y cambia el número de VERSION
+  en sw.js (por ejemplo 798ac-v2). Los teléfonos verán el aviso "Hay una versión nueva".
+
+IMPORTANTE · PRIVACIDAD
+  Este material es de Finning Capacitación. Una dirección pública la puede abrir
+  cualquiera que tenga el enlace, así que no lo compartas fuera de quienes
+  correspondan. La app incluye una etiqueta para que Google no la indexe, pero eso
+  no la hace privada.
+
+NOTAS Y AVANCE
+  Tus notas, favoritos y temas leídos se guardan en el teléfono donde instalas la
+  app (no se sincronizan entre dispositivos). Usa el botón ⬇ del índice para
+  descargar tus notas.
